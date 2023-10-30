@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connectDB = async () => {
    try {
-      const url = process.env.MONGO_URL;
+      const url = 'mongodb+srv://manivardhan12356:mani!vardhan1428@ecommercedata.11fcaed.mongodb.net/ecommercedata?retryWrites=true&w=majority';
       if (!url) {
          throw new Error('MongoDB connection URL is not defined');
       }
