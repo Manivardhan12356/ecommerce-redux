@@ -17,9 +17,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({
    useNewUrlParser: true,
-   useCreateIndex: true,
    useUnifiedTopology: true,
-   extended: true
+   
 }));
 app.use(cookieParser());
 
